@@ -1,4 +1,11 @@
-package PACKAGE_NAME;
+public class Cancion implements Multimedia{
+    @Override
+    public void grabar() {
+        System.out.println("Grabando canción...");
+    }
 
-public class Cancion {
+    @Override
+    public void reproducir() {
+        System.out.println("Reproduciendo canción...");
+    }
 }

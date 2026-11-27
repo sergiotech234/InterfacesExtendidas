@@ -1,4 +1,2 @@
-package PACKAGE_NAME;
-
-public interface Multimedia {
+public interface Multimedia extends Reproducible, Grabable{
 }
